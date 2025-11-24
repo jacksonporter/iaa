@@ -1,0 +1,20 @@
+{
+  "name": "iaa",
+  "version": "0.0.0",
+  "description": "Infrastructure Assist Application - used in the auditing/linting/SDLC of IaC configurations.",
+  "homepage": "https://github.com/jacksonporter/iaa#readme",
+  "bugs": {
+    "url": "https://github.com/jacksonporter/iaa/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonporter/iaa.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,24 @@
+
+[env]
+_.python.venv = { path = ".venv", create = true } # create the venv if it doesn't exist
+
+[tools]
+node = "latest"
+powershell = "7"
+prek = "latest"
+python = "3.14"
+
+# [hooks]
+# enter = "scripts/hooks/enter.ps1"
+
+[tasks.setup]
+description = "Setup the project and its dependencies"
+run = "pwsh scripts/tasks/setup.ps1"
+
+[tasks.upgrade]
+description = "Upgrade the project and its dependencies"
+run = "pwsh scripts/tasks/upgrade.ps1"
+
+[tasks.clear-caches]
+description = "Clear the caches"
+run = "pwsh scripts/tasks/clear-caches.ps1"

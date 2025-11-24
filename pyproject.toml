@@ -1,0 +1,17 @@
+[project]
+name = "iaa"
+version = "0.0.1"
+description = "Infrastructure Assist Application - used in the auditing/linting/SDLC of IaC configurations."
+authors = [
+    {name = "jacksonporter",email = "jackson@jacksonporterjp.com"}
+]
+license = {text = "Apache"}
+readme = "README.md"
+requires-python = ">=3.14,<4"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
